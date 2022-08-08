@@ -37,5 +37,8 @@ export default function Barbara() {
                 If you have similar needs or would like to know more about how Tech2U can best support your teaching, please contact the Tech2U team.
             </p>
         </div>
+        <iframe class="video" width="853" height="505" src="https://www.youtube.com/watch?v=zoKc7M-taIo" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </section>
 }

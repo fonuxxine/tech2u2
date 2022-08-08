@@ -1,4 +1,3 @@
-import SubTechBox from "./components/SubTechBox";
 import im0 from "../assets/tech/Group20.svg";
 import im1 from "../assets/tech/image20.svg";
 import im2 from "../assets/tech/image21.svg";

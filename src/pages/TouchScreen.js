@@ -64,7 +64,9 @@ export default function TouchScreen() {
                         <li>Adjustable Stand</li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                <iframe class="video" width="653" height="405" src="https://www.youtube.com/watch?v=FvFCrttxS_Y" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
             </div>
     </section>
