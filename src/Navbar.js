@@ -4,7 +4,9 @@ import logo from './assets/other/image4.svg';
 export default function Navbar() {
   return (
     <nav className="nav landing-banner nav-banner">
-      <img class="logo" src={logo} alt=""/>
+      <Link to="/" className="site_links">
+        <img class="logo" src={logo} alt=""/>
+      </Link>
       <div className="nav-banner-about">
         <Link to="/" className="site_links">
         Home

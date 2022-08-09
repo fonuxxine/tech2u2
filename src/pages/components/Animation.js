@@ -27,5 +27,5 @@ function Hello() {
     return () => {
         window.removeEventListener("scroll", doSomething);
     };
-  }, []);
+    }, []);
 }
