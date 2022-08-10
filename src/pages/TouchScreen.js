@@ -5,7 +5,6 @@ import im2 from "../assets/tech/b2.svg";
 import im4 from "../assets/tech/b3.svg";
 import im5 from "../assets/tech/b4.svg";
 import im6 from "../assets/tech/b0.svg";
-import im7 from "../assets/tech/Group422.svg";
 
 export default function TouchScreen() {
     const techSupport1 = [
@@ -64,9 +63,7 @@ export default function TouchScreen() {
                         <li>Adjustable Stand</li>
                     </ul>
                 </div>
-                <iframe class="video" width="653" height="405" src="https://www.youtube.com/watch?v=FvFCrttxS_Y" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                <iframe className="tech-vid-sp" width="489" height="350" src="https://www.youtube.com/embed/N7R3LBu1QCQ" title="Tech2U Feature Video: Annotatable Touchscreen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             </div>
     </section>

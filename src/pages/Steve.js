@@ -1,9 +1,7 @@
-import im4 from "../assets/stories/a1.svg";
-
 export default function Steve() {
     return <section>
         <div class="stories-header-bx">
-            <img src={im4} alt=""/>
+            <img src="" alt=""/>
             <div class="story-content-header">
                 <div class="box-help">
                     <h2>Adapting to unique situations</h2>

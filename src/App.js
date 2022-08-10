@@ -24,6 +24,7 @@ import Bill from "./pages/Bill";
 import Doug from "./pages/Doug";
 import Barbara from "./pages/Barbara";
 import Footer from "./pages/components/Footer";
+import GoToTop from "./pages/components/GoToTop";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
+      <GoToTop />
     </>
   )
 }

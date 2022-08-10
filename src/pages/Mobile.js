@@ -65,7 +65,7 @@ export default function Mobile() {
                         <li>Ergonomic Adjustable Stand </li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                <iframe className="tech-vid-sp" width="489" height="350" src="https://www.youtube.com/embed/RvmSdSCOds0" title="Tech2U Feature Video: Tech2U Mobile PC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             </div>
     </section>

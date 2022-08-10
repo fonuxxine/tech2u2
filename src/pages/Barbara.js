@@ -1,9 +1,9 @@
-import im4 from "../assets/stories/a1.svg";
+import im3 from "../assets/stories/a3.svg";
 
 export default function Barbara() {
     return <section>
         <div class="stories-header-bx">
-            <img src={im4} alt=""/>
+            <img src={im3} alt=""/>
             <div class="story-content-header">
                 <div class="box-help">
                     <h2>Adapting to unique situations</h2>
@@ -37,8 +37,6 @@ export default function Barbara() {
                 If you have similar needs or would like to know more about how Tech2U can best support your teaching, please contact the Tech2U team.
             </p>
         </div>
-        <iframe class="video" width="853" height="505" src="https://www.youtube.com/watch?v=zoKc7M-taIo" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+        <iframe class="video vid-sp" width="905" height="509" src="https://www.youtube.com/embed/zoKc7M-taIo" title="2022 07 27 BARBARA BALLYK STORY RC1 v1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 }

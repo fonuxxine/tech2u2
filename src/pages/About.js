@@ -18,6 +18,7 @@ import icon6 from "../assets/about/image16.svg";
 import icon7 from "../assets/about/image17.svg";
 import icon8 from "../assets/about/image18.svg";
 import icon9 from "../assets/about/image19.svg";
+import { Link } from "react-router-dom";
 
 export default function About() {
     return <section>
@@ -57,7 +58,7 @@ export default function About() {
                 <div class="icon-set">
                     <img src={img7} alt=""/>
                     <p><b>Learn </b>
-                        from the <a href="./stories-page/stories.html">stories</a> of other instructors.</p>
+                        from the <Link to="/stories">stories</Link> of other instructors.</p>
                 </div>
             </div>
             <div class="service-text">

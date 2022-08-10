@@ -339,6 +339,10 @@ span .stories-link {
   align-items: center;
 }
 
+.vid-sp {
+  margin-bottom: 50px;
+}
+
 .contact-info {
   display: flex;
   align-items: center;
@@ -922,6 +926,11 @@ span .stories-link {
 }
 
 /* Technology */
+.tech-vid-sp {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .landing-banner-tech {
   width: 100%;
   background: url(/);
@@ -1047,8 +1056,8 @@ span .stories-link {
 
 .tech-rect a p {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 22px;
   color: var(--web-navy-blue);
 }
 
@@ -1153,9 +1162,10 @@ span .stories-link {
 }
 
 .mobile-set p {
+  
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 22px;
   text-align: center;
   color: var(--web-navy-blue);
 }
@@ -1433,6 +1443,7 @@ span .stories-link {
 
 .help-info {
   padding: 80px 100px;
+  padding-bottom: 0;
 }
 
 .help-info h2 {

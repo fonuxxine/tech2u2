@@ -38,7 +38,6 @@ export default function Studio() {
                 </div>
             </div>
             <div class="mobile-body">
-                <h2>Can Help With...</h2>
                 <div class="team-box">
                     <div class="team-set">
                         {

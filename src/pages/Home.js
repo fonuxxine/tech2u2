@@ -1,4 +1,4 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import bannerImg from '../assets/home/Group415.svg';
 import img1 from '../assets/home/Group379.svg';
 import img2 from '../assets/home/Group424.svg';
