@@ -1,3 +1,4 @@
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import bannerImg from '../assets/home/Group415.svg';
 import img1 from '../assets/home/Group379.svg';
 import img2 from '../assets/home/Group424.svg';
@@ -20,7 +21,7 @@ export default function Home() {
             </div>
             <div class="about-p">
                 <p>The program provides real-time, personalized technical support for instructors by a trained team of students and seasoned technicians.</p>
-                <a href="./about.html" class="about-link">Learn More about Tech2U</a>
+                <Link to="/about" class="about-link">Learn More about Tech2U</Link>
             </div>
         </div>
         <div class="overview-info">
@@ -29,7 +30,9 @@ export default function Home() {
             </div>
             <div class="about-p">
                 <p>Tech2U offers real-time, personalized tech support in the classroom from a technical support team. We strive to help instructors focus on teaching and leave the technology to us!</p>
-                <a href="./tech-page/tech.html" class="about-link">Learn More about the Technology</a>
+                <Link to="/technology" class="about-link">
+                    Learn More about the Technology
+                </Link>
             </div>
         </div>
         <div class="about-info">
@@ -39,7 +42,9 @@ export default function Home() {
             <div class="about-p">
                 <p>Tech2U is already supporting many instructors to reach their goals and maximize technology in their classroom. Read some
                 of the stories of Instructors who have received technical support through Tech2U.</p>
-                <a href="./about.html" class="about-link">Learn More about Accessibility</a>
+                <Link to="/accessibility" class="about-link">
+                    Learn More about Accessibility
+                </Link>
             </div>
         </div>
         <div class="stories-info">
@@ -48,7 +53,7 @@ export default function Home() {
                 <p class="stories-p">
                     The Tech2U team was really, really crucial in helping me navigate the big unknowns.
                 </p>
-                <a href="stories-page/stories.html" class="stories-link">Read More Stories</a>
+                <Link to="/stories" class="stories-link">Read More Stories</Link>
             </span>
             <img src={img4} alt=""/>
         </div>
@@ -57,7 +62,7 @@ export default function Home() {
             allowfullscreen></iframe>
         <div class="contact-info">
             <p class="contact-p">Are you looking to learn more about whether Tech2U is for you? <br/> Get in touch with us, we&#8217;d love to hear from you!</p>
-            <a href="contact.html" class="contact-link">Contact Us</a>
+            <Link to="/contact" class="contact-link">Contact Us</Link>
         </div>
     </section>
 }
