@@ -5,7 +5,6 @@ import im2 from "../assets/tech/Group2.svg";
 import im4 from "../assets/tech/Group3.svg";
 import im5 from "../assets/tech/Layer.svg";
 import im6 from "../assets/tech/Group21.svg";
-import im7 from "../assets/tech/Group422.svg";
 
 export default function Mobile() {
     const techSupport1 = [
