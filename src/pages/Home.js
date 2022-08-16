@@ -11,7 +11,9 @@ export default function Home() {
             <div class="nav-text box-about2">
                 <h2>Humanizing Classroom Technical Support</h2>
                 <p>Fostering excellent and innovative teaching and learning in an increasingly technological classroom</p>
-                <button class="btn-landing">Tech2U Support</button>
+                <Link to="/contact">
+                    <button class="btn-landing">Tech2U Support</button>
+                </Link>
             </div>
             <img class="nav-p" src={bannerImg} alt=""/>
         </div>
@@ -40,8 +42,7 @@ export default function Home() {
                 <img src={img3} alt=""/>
             </div>
             <div class="about-p">
-                <p>Tech2U is already supporting many instructors to reach their goals and maximize technology in their classroom. Read some
-                of the stories of Instructors who have received technical support through Tech2U.</p>
+                <p>Tech2U supports classroom accessibility by enabling participation for students who require remote accommodation and by offering instructors the flexibility of teaching from home or campus.</p>
                 <Link to="/accessibility" class="about-link">
                     Learn More about Accessibility
                 </Link>

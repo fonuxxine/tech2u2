@@ -28,9 +28,9 @@ export default function Footer() {
                 </CustomLink>
                 
             </div>
-            <a href="https://lsm.utoronto.ca/lsm_portal" target="_blank" rel="noreferrer">
+            <Link href="/contact" target="_blank" rel="noreferrer">
                 <button class="footer-cta">Get Tech Support</button>
-            </a>
+            </Link>
         </div>
     </section>
 }
