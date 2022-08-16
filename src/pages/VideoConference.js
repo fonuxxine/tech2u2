@@ -5,7 +5,6 @@ import im2 from "../assets/tech/c2.svg";
 import im4 from "../assets/tech/c3.svg";
 import im5 from "../assets/tech/c4.svg";
 import im6 from "../assets/tech/c5.svg";
-import im7 from "../assets/tech/Group422.svg";
 
 export default function VideoConference() {
     const techSupport1 = [
@@ -67,7 +66,7 @@ export default function VideoConference() {
                         <li>Height Adjustable Stand</li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                <iframe className="tech-vid-sp" width="489" height="350" src="https://www.youtube.com/embed/Ni2t6Q__Yv4" title="Tech2U Feature Video: Video Conferencing Soundbar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             </div>
     </section>

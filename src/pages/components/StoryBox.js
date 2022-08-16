@@ -1,18 +1,18 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
-export default function StoryBox({ image, title, description, link }) {
+export default function StoryBox({ image, title, description, link, name }) {
     return <div class="stories-box">
                 <img src={image} alt=""/>
-                <div class="story-content">
-                    <div class="content">
-                        <p>{description}</p>
-                        <CustomLink class="stories-link-read" to={`${link}`}>
-                            Read more &gt;
-                        </CustomLink>
-                    </div>
+                <div class="content">
                     <div class="story-title">
                         {title}
                     </div>
+                    <p>{description}</p>
+                    <button class="contact-btn">
+                        <CustomLink className="story-btn" to={`${link}`}>
+                            Read {name}'s Story
+                        </CustomLink>
+                    </button>
                 </div>
             </div>
 }

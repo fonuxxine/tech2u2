@@ -33,40 +33,40 @@ export default function Mobile() {
                     <h2>Tech2U Mobile PC Station</h2>
                     <img src={im6} alt=""/>
                 </div>
-            <div class="mobile-body2">
-                <div class="team-box">
-                    <div class="team-set">
-                        {
-                            techSupport1.map(card => {
-                                return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
-                                )
-                            })
-                        }
-                    </div>
-                    <div class="team-set">
-                        {
-                            techSupport2.map(card => {
-                                return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
-                                )
-                            })
-                        }
+                <div class="mobile-body2">
+                    <div class="team-box">
+                        <div class="team-set">
+                            {
+                                techSupport1.map(card => {
+                                    return (
+                                        <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    )
+                                })
+                            }
+                        </div>
+                        <div class="team-set">
+                            {
+                                techSupport2.map(card => {
+                                    return (
+                                        <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    )
+                                })
+                            }
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="feature-vid2">
-                <div class="feature2">
-                    <h2>Features &amp; Specifications</h2>
-                    <ul>
-                        <li>Annotatable Touch Screen</li>
-                        <li>Webcam &amp; Microphone</li>
-                        <li>USB Inputs</li>
-                        <li>Ergonomic Adjustable Stand </li>
-                    </ul>
+                <div class="feature-vid2">
+                    <div class="feature2">
+                        <h2>Features &amp; Specifications</h2>
+                        <ul>
+                            <li>Annotatable Touch Screen</li>
+                            <li>Webcam &amp; Microphone</li>
+                            <li>USB Inputs</li>
+                            <li>Ergonomic Adjustable Stand </li>
+                        </ul>
+                    </div>
+                    <iframe className="tech-vid-sp" width="489" height="350" src="https://www.youtube.com/embed/RvmSdSCOds0" title="Tech2U Feature Video: Tech2U Mobile PC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <iframe className="tech-vid-sp" width="489" height="350" src="https://www.youtube.com/embed/RvmSdSCOds0" title="Tech2U Feature Video: Tech2U Mobile PC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
             </div>
     </section>
 }
