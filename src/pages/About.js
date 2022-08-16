@@ -178,7 +178,7 @@ export default function About() {
             </div>
             <p class="centre">Hear how Tech2U has positively impacted instructors and listen to their <Link to="/stories">stories</Link>!</p>
             <div class="book-info">
-                <Link to="/contact">
+                <Link href="/contact" target="_blank" rel="noreferrer">
                     <button class="btn-tech">Book Tech2U Support</button>
                 </Link>
             </div>
