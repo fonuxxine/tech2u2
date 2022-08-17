@@ -28,14 +28,12 @@ export default function Studio() {
         image: im6}
     ]
     return <section>
-            <div class="nav-info-cont-cap">
-                <div class="nav-cont-cap">
-                    <div class="nav-cont-text">
-                        <h2>Live Stream Events</h2>
-                        <p>Tech2U supports livestream for events of all sizes.</p>
-                    </div>
-                    <img src={im0} alt=""/>
+            <div class="nav-cont-cap">
+                <div class="nav-cont-text">
+                    <h2>Tech2U Studio</h2>
+                    <p>A fully equipped video recording studio with a green screen to pre-record content.</p>
                 </div>
+                <img src={im0} alt=""/>
             </div>
             <div class="mobile-body">
                 <div class="team-box">
@@ -60,7 +58,7 @@ export default function Studio() {
                 </div>
             </div>
             <div class="feature-vid">
-                <div class="feature">
+                <div class="feature2">
                     <h2>Features &amp; Specifications</h2>
                     <ul>
                         <li>4K video camera</li>
@@ -71,7 +69,7 @@ export default function Studio() {
                         <li>Next day delivery</li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                <iframe className="tech-vid-sp" width="489" height="350" src="https://www.youtube.com/embed/Kizc144Zskc" title="2022 08 11 Studio Demo RC1 v1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
     </section>
 }

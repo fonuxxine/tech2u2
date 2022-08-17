@@ -9,7 +9,7 @@ import im6 from "../assets/tech/b0.svg";
 export default function TouchScreen() {
     const techSupport1 = [
         {
-        title: "Adding interactivity to presentations",
+        title: "Compatibility with PowerPoint, Zoom, etc.",
         image: im6},
         {
         title: "Providing eco-friendly replacement of physical whiteboards",
@@ -38,7 +38,7 @@ export default function TouchScreen() {
                         {
                             techSupport1.map(card => {
                                 return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    <SubTechBox title={card.title} image={card.image}/>
                                 )
                             })
                         }
@@ -47,7 +47,7 @@ export default function TouchScreen() {
                         {
                             techSupport2.map(card => {
                                 return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    <SubTechBox title={card.title} image={card.image}/>
                                 )
                             })
                         }

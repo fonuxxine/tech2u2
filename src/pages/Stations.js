@@ -13,12 +13,9 @@ import vid6 from "../assets/video/teachingDock.mp4";
 
 export default function Stations() {
     return <section>
-            <div class="nav-info-cont-cap">
-                <div class="nav-cont-cap">
-                    <div class="nav-cont-text">
-                        <h2>Teaching Stations</h2>
-                        <p>Tech2U supports instructors in capturing content to share with students after class.</p>
-                    </div>
+            <div class="nav-info-mobile">
+                <div class="box-mobile">
+                    <h2>Teaching Stations</h2>
                     <img src={im0} alt=""/>
                 </div>
             </div>

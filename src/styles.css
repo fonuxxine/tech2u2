@@ -31,14 +31,14 @@
   scroll-behavior: smooth;
 }
 
-.p{
+.p {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
 }
 
 /* Header */
-.nav{
+.nav {
   color: var(--off-white);
   margin-bottom: 30px;
 }
@@ -132,10 +132,10 @@ button:hover {
 }
 
 .nav-p-abt {
-  width: 300px;
+  width: 250px;
   position: absolute;
-  bottom: 250px;
-  right: 18vw;
+  bottom: 300px;
+  right: 20vw;
 }
 
 .nav-p-tech {
@@ -143,6 +143,12 @@ button:hover {
   position: absolute;
   right: 25vw;
   z-index: 2;
+}
+
+.nav-p-access {
+  width: 250px;
+  position: absolute;
+  right: 20vw;
 }
 
 .nav-text {
@@ -172,14 +178,15 @@ button:hover {
 
 .nav-cont-cap {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-end;
+  margin-top: -500px;
+  padding-left: 150px;
 }
 
 .nav-cont-cap .nav-cont-text {
-  margin-left: 10vw;
-  margin-right: 10vw;
   text-align: left;
+  margin-right: auto;
 }
 
 .nav-cont-text h2 {
@@ -191,16 +198,17 @@ button:hover {
 }
 
 .nav-cont-text p {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
   color: var(--off-white);
 }
 
-.nav-cont-cap {
-  margin-right: 10vw;
+.nav-cont-cap img{
+  width: 230px;
+  margin-right: 150px;
+  margin-left: 50px;
 }
-
 
 /* Home */
 .about-info {
@@ -253,6 +261,7 @@ button:hover {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
+  margin-top: 20px;
 }
 
 .overview-info {
@@ -386,7 +395,7 @@ span .stories-link {
   margin-right: 30px;
 }
 
-.footer-col a{
+.footer-col a {
   text-decoration: none;
 }
 
@@ -494,7 +503,7 @@ span .stories-link {
   color: var(--web-navy-blue);
 }
 
-.nav-info-about{
+.nav-info-about {
   display: flex;
   align-items: flex-start;
   padding: 30px 0vw 0 5vw;
@@ -577,31 +586,31 @@ span .stories-link {
 
 /* Footer */
 
-.footer{
-    display: flex;
-    background-color: var(--web-navy-blue);
-    justify-content: flex-end;
-    padding: 30px 50px 30px 50px;
+.footer {
+  display: flex;
+  background-color: var(--web-navy-blue);
+  justify-content: flex-end;
+  padding: 30px 50px 30px 50px;
 }
 
-.footer-logo{
-    margin-right: auto;
+.footer-logo {
+  margin-right: auto;
 }
 
-.footer-col{
-    margin-right: 30px;
+.footer-col {
+  margin-right: 30px;
 }
 
-.footer-col h3{
-    color: var(--off-white);
-    font-size: 1rem;
-    font-weight: 500;
+.footer-col h3 {
+  color: var(--off-white);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-.footer button{
-    height: 50px;
-    padding: 5px 10px;
-    border-radius: 20px;
+.footer button {
+  height: 50px;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
 
 
@@ -745,6 +754,7 @@ span .stories-link {
   line-height: 22px;
   color: var(--web-navy-blue);
 }
+
 .icon-set {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -808,7 +818,7 @@ span .stories-link {
 
 .tech2u-impact {
   align-items: center;
-  padding: 70px 10vw 0px 10vw;
+  padding: 50px 10vw 0px 10vw;
 }
 
 .tech2u-impact h2 {
@@ -821,6 +831,29 @@ span .stories-link {
 }
 
 .tech2u-impact p {
+  padding-bottom: 50px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--web-navy-blue);
+}
+
+.tech2u-impact2 {
+  align-items: center;
+  padding: 0px 10vw 0px 10vw;
+}
+
+.tech2u-impact2 h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--web-navy-blue);
+}
+
+.tech2u-impact2 p {
   padding-bottom: 50px;
   text-align: center;
   font-weight: 400;
@@ -864,6 +897,11 @@ span .stories-link {
   margin-bottom: 30px;
 }
 
+.impact-img img {
+  width: 120px;
+  height: 120px;
+}
+
 .centre {
   text-align: center;
 }
@@ -883,7 +921,7 @@ span .stories-link {
 
 .access-row {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 40px;
   margin-left: 5vw;
   margin-right: 5vw;
@@ -898,7 +936,7 @@ span .stories-link {
 }
 
 .access-row ul li {
-  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .centre-btn {
@@ -978,21 +1016,21 @@ span .stories-link {
   margin-bottom: 30px;
   color: var(--off-white);
   font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 32px;
+  line-height: 39px;
 }
 
 .box-tech2 p {
-  font-size: 15px;
   margin-bottom: 30px;
   color: var(--off-white);
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .tech-body {
-  padding: 190px 0 0px 0;
+  padding: 50px 0 0px 0;
+  background-color: var(--white);
 }
 
 .tech-row {
@@ -1040,6 +1078,7 @@ span .stories-link {
   font-size: 18px;
   line-height: 22px;
   color: var(--web-navy-blue);
+  padding: 0 30px;
 }
 
 .tech-row img {
@@ -1077,15 +1116,15 @@ span .stories-link {
 .nav-info-cont-cap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 30px;
   margin-top: -500px;
+  margin-left: 10vw;
+  justify-content: flex-end;
+  padding: 10px 50px 30px 50px;
 }
 
 .box-mobile {
   display: flex;
-  margin-top: -90px;
+  margin-top: -100px;
 }
 
 .box-mobile h2 {
@@ -1093,18 +1132,20 @@ span .stories-link {
   font-size: 32px;
   line-height: 39px;
   color: var(--off-white);
+  margin-top: 40px;
   margin-right: 30vw;
 }
 
 .box-mobile img {
   position: absolute;
   right: 8vw;
-  bottom: 260px;
+  bottom: 340px;
+  width: 230px;
 }
 
 .mobile-body {
   margin-top: 50px;
-  padding: 70px 0 50px 0;
+  padding: 20px 0 50px 0;
   background-color: var(--white);
   width: 100%;
 }
@@ -1117,7 +1158,7 @@ span .stories-link {
 
 .mobile-body2 {
   margin-top: 50px;
-  padding: 160px 0 50px 0;
+  padding: 60px 0 50px 0;
   background-color: var(--white);
   width: 100%;
 }
@@ -1143,12 +1184,12 @@ span .stories-link {
 }
 
 .mobile-set p {
-  
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   color: var(--web-navy-blue);
+  padding: 0 20px;
 }
 
 .feature-vid {
@@ -1206,8 +1247,20 @@ span .stories-link {
   margin-left: 40px;
 }
 
+.feature2 ul li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .feature2 ul li ul {
   margin-left: 20px;
+}
+
+.feature2 ul li ul li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .mobile-landing {
@@ -1221,8 +1274,9 @@ span .stories-link {
 
 /* ------------Teaching Station-------------- */
 .teach-sta-body {
-  margin: 70px;
-  margin-top: 180px;
+  margin-top: 50px;
+  padding: 60px 0 50px 0;
+  background-color: var(--white);
 }
 
 .teach-sta-body h2 {
@@ -1269,8 +1323,8 @@ span .stories-link {
 
 /* -----------Stories----------- */
 .stories-body {
-  padding: 50px 0px 50px 0px;
-  margin-top: 100px;
+  padding: 10px 0px 10px 0px;
+  background-color: var(--white);
 }
 
 .stories-row {
@@ -1278,7 +1332,6 @@ span .stories-link {
   grid-template-columns: 1fr 1fr;
   align-content: stretch;
   align-items: stretch;
-  margin: 0 50px;
 }
 
 .stories-box {
@@ -1288,7 +1341,7 @@ span .stories-link {
 }
 
 .stories-box img {
-  padding: 70px 30px;
+  padding: 40px 40px;
 }
 
 .stories-header-bx {
@@ -1307,11 +1360,11 @@ span .stories-link {
 
 .content {
   flex-direction: column;
-  padding: 70px 30px;
+  padding: 40px 40px;
   color: var(--web-navy-blue);
 }
 
-.content p{
+.content p {
   margin-bottom: 20px;
 }
 
@@ -1508,8 +1561,6 @@ span .stories-link {
 }
 
 #form {
-  display: inline;
-  float: left;
 }
 
 #form p {
@@ -1572,10 +1623,6 @@ span .stories-link {
   margin-bottom: 40px;
 }
 
-#tap {
-  display: none;
-}
-
 .quest-sec {
   padding: 70px;
   background-color: var(--white);
@@ -1607,6 +1654,8 @@ span .stories-link {
   margin: 0 30px;
   width: 30vw;
   border-radius: 40px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .quest-box h3 {

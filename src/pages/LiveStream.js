@@ -32,14 +32,12 @@ export default function LiveStream() {
         image: im1}
     ]
     return <section>
-            <div class="nav-info-cont-cap">
-                <div class="nav-cont-cap">
-                    <div class="nav-cont-text">
-                        <h2>Live Stream Events</h2>
-                        <p>Tech2U supports livestream for events of all sizes.</p>
-                    </div>
-                    <img src={im0} alt=""/>
+            <div class="nav-cont-cap">
+                <div class="nav-cont-text">
+                    <h2>Live Stream Events</h2>
+                    <p>Tech2U supports livestream for events of all sizes.</p>
                 </div>
+                <img src={im0} alt=""/>
             </div>
             <div class="mobile-body">
                 <div class="team-box">
@@ -64,7 +62,7 @@ export default function LiveStream() {
                 </div>
             </div>
             <div class="feature-vid">
-                <div class="feature">
+                <div class="feature2">
                     <h2>Features &amp; Specifications</h2>
                     <ul>
                         <li>High-quality streaming</li>
@@ -73,7 +71,7 @@ export default function LiveStream() {
                         <li>Customizable technology delivery</li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                {/* <img src={im7} alt=""/> */}
             </div>
     </section>
 }

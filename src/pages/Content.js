@@ -28,14 +28,12 @@ export default function Audio() {
         image: im6}
     ]
     return <section>
-            <div class="nav-info-cont-cap">
-                <div class="nav-cont-cap">
-                    <div class="nav-cont-text">
-                        <h2>Content Capture</h2>
-                        <p>Tech2U supports instructors in capturing content to share with students after class.</p>
-                    </div>
-                    <img src={im1} alt=""/>
+            <div class="nav-cont-cap">
+                <div class="nav-cont-text">
+                    <h2>Content Capture</h2>
+                    <p>Tech2U supports instructors in capturing content to share with students after class.</p>
                 </div>
+                <img src={im1} alt=""/>
             </div>
             <div class="mobile-body">
                 <div class="team-box">
@@ -60,7 +58,7 @@ export default function Audio() {
                 </div>
             </div>
             <div class="feature-vid">
-                <div class="feature">
+                <div class="feature2">
                     <h2>Features &amp; Specifications</h2>
                     <ul>
                         <li>Editing suite</li>
@@ -68,7 +66,7 @@ export default function Audio() {
                         <li>Simple setup</li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                {/* <img src={im7} alt=""/> */}
             </div>
     </section>
 }

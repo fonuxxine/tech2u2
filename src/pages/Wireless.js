@@ -68,7 +68,7 @@ export default function Wireless() {
                         </li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                {/* <img src={im7} alt=""/> */}
             </div>
             </div>
     </section>

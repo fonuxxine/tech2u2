@@ -13,7 +13,7 @@ import icon1 from "../assets/about/image11.svg";
 import icon2 from "../assets/about/image12.svg";
 import icon3 from "../assets/about/image13.svg";
 import icon4 from "../assets/about/image14.svg";
-import icon5 from "../assets/about/image15.svg";
+import icon5 from "../assets/about/Group494.svg";
 import icon6 from "../assets/about/image16.svg";
 import icon7 from "../assets/about/image17.svg";
 import icon8 from "../assets/about/image18.svg";
@@ -22,21 +22,18 @@ import { Link } from "react-router-dom";
 
 export default function About() {
     return <section>
-    <div class="nav-info-about">
+    <div class="nav-info">
         <div class="nav-text box-about3">
             <h2>What is Tech2U?</h2>
-            <p>The Tech2U program humanizes classroom technical support to foster excellent and innovative teaching
-                and learning in an
-                increasingly technological classroom. The program provides real-time, personalized technical support
-                for instructors by
-                a trained team of students and seasoned technicians.</p>
+            <p>The Tech2U program humanizes classroom technical support to foster excellent and innovative teaching and learning in an increasingly technological classroom. The program provides real-time, personalized technical support for instructors by
+                a trained team of students and experienced technicians.</p>
         </div>
         <img class="nav-p-abt" src={img10} alt=""/>
     </div>
     <div class="services">
         <div class="our-service">
             <h2>Our Services</h2>
-            <p className="ser-mar">Tech2U understands that juggling technology in a classroom while focusing on teaching can be challenging. We strive to help instructors focus on teaching and leave the technology to us!</p>
+            <p className="ser-mar">Tech2U understands that juggling technology in a classroom while focusing on teaching can be challenging. We strive to help instructors focus on teaching and leave the technology to us! Instructors can:</p>
             <div class="service-icon">
                 <div class="icon-set">
                     <img src={img3} alt=""/>
@@ -67,8 +64,8 @@ export default function About() {
             </div>
         </div>
         <div class="team">
-            <h2>Our Services</h2>
-            <p class="team-fr-text">Tech2U understands that juggling technology in a classroom while focusing on teaching can be challenging. We strive to help instructors focus on teaching and leave the technology to us!</p>
+            <h2>Meet the Team</h2>
+            <p class="team-fr-text">Our team is here to help instructors focus on teaching while we support classroom technology!</p>
             <div class="n-team-list">
                 <div class="n-team-card">
                     <img src={img5} alt=""/>
@@ -81,7 +78,7 @@ export default function About() {
                     <img src={img1} alt=""/>
                     <div class="n-card-text">
                         <h3>Instructional Support Coordinator</h3>
-                        <p>I schedule the technical support team for Tech2U services and ensure ongoing communication
+                        <p>I schedule the technical support team for Tech2U services and provide ongoing communication
                             between all team members to
                             ensure each instructor receives great service.</p>
                     </div>
@@ -92,7 +89,7 @@ export default function About() {
                         <h3>Technical Co-Pilots</h3>
                         <p>We provide direct mentorship to Classroom Ambassadors and direct technical support to
                             instructors for more complex tech
-                            setups. We oversee the smooth operations of Tech2U from building to building to ensure
+                            setups. We oversee the smooth operations of Tech2U from different buildings to ensure
                             instructors have great service.</p>
                     </div>
                 </div>
@@ -100,7 +97,7 @@ export default function About() {
                     <img src={img8} alt=""/>
                     <div class="n-card-text">
                         <h3>Student Classroom Ambassadors</h3>
-                        <p>We are work-study students that offer on-site support to instructors by troubleshooting
+                        <p>We are Work Study students that offer on-site support to instructors by troubleshooting
                             technical issues in the
                             classroom. We're learning so much through this experience!</p>
                     </div>
@@ -109,10 +106,7 @@ export default function About() {
                     <img src={img9} alt=""/>
                     <div class="n-card-text">
                         <h3>Multimedia Support</h3>
-                        <p>We provide direct mentorship to Classroom Ambassadors and direct technical support to
-                            instructors for more complex tech
-                            setups. We oversee the smooth operations of Tech2U from building to building to ensure
-                            instructors have great service.</p>
+                        <p>We provide behind-the-scenes maintenance to classroom hardware so that all technology is up-to-date and working well, ready for instructors to use.</p>
                     </div>
                 </div>
             </div>
@@ -159,7 +153,7 @@ export default function About() {
                     <div class="impact-img">
                         <img src={icon3} alt=""/>
                     </div>
-                    <p>Equipment Delivery  Setup</p>
+                    <p>Equipment Delivery & Setup</p>
                 </div>
             </div>
             <div class="impact-data">
@@ -173,7 +167,7 @@ export default function About() {
                     <div class="impact-img">
                         <img src={icon5} alt=""/>
                     </div>
-                    <p>Focus on Teaching, Not Technology</p>
+                    <p>Focus on Teaching, not Technology</p>
                 </div>
                 <div class="impact-set">
                     <div class="impact-img">
@@ -182,12 +176,11 @@ export default function About() {
                     <p>Supporting Dual Delivery</p>
                 </div>
             </div>
-            <p class="centre">Hear how Tech2U has positively impacted instructors and listen to their <a
-                    href="./stories-page/stories.html">stories</a>!</p>
+            <p class="centre">Hear how Tech2U has positively impacted instructors and listen to their <Link to="/stories">stories</Link>!</p>
             <div class="book-info">
-                <a href="https://lsm.utoronto.ca/lsm_portal" target="_blank" rel="noreferrer">
+                <Link to="/contact">
                     <button class="btn-tech">Book Tech2U Support</button>
-                </a>
+                </Link>
             </div>
         </div>
     </div>

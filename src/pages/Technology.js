@@ -42,13 +42,12 @@ export default function Technology() {
         link: "/studio"}
     ]
     return <section>
-        <div class="nav-info-about">
+        <div class="nav-info">
             <div class="nav-text box-about3">
                 <h2>Technology</h2>
-                <p>Tech2U offers real-time, personalized tech support in the classroom from a technical support team. Contact us to
-                schedule tech support for your class. We offer:</p>
+                <p>Tech2U offers real-time, personalized tech support in the classroom from a technical support team. Contact us to schedule tech support for your class. We offer:</p>
             </div>
-            <img class="nav-p-tech" src={img1} alt=""/>
+            <img class="nav-p-abt" src={img1} alt=""/>
         </div>
         <div class="tech-body">
             <div class="tech-row">

@@ -40,7 +40,7 @@ export default function DualDelivery() {
         <div class="nav-info-about">
             <div class="box-tech2">
                 <h2>Dual Delivery Support</h2>
-                <p>Tech2U supports instructors in dual-delivery to both remote and in-person students. Contact us to schedule tech support for your class. There are several technology options to support dual-delivery available that can be set up by a Tech2U team member:</p>
+                <p>Tech2U supports instructors in dual delivery to both remote and in-person students. Contact us to schedule tech support for your class. There are several technology options to support dual delivery available that can be set up by a Tech2U team member:</p>
             </div>
         </div>
         <div class="tech-body">

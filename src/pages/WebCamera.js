@@ -39,7 +39,7 @@ export default function WebCamera() {
                         {
                             techSupport1.map(card => {
                                 return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    <SubTechBox title={card.title} image={card.image}/>
                                 )
                             })
                         }
@@ -48,7 +48,7 @@ export default function WebCamera() {
                         {
                             techSupport2.map(card => {
                                 return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    <SubTechBox title={card.title} image={card.image}/>
                                 )
                             })
                         }
@@ -70,7 +70,7 @@ export default function WebCamera() {
                         </li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                {/* <img src={im7} alt=""/> */}
             </div>
             </div>
     </section>

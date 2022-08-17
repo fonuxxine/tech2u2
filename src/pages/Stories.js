@@ -13,11 +13,11 @@ export default function Stories() {
         image: im5,
         description: "Steven Treiber wanted to diversify lecture content by allowing guest lecturers and students to join from anywhere in the world. Tech2U enabled panoramic views to capture the full classroom experience.",
         link: "/steve",
-        name: "Steve"},
+        name: "Steven"},
         {
         title: "Empowering a First Time Instructor",
         image: im4,
-        description: "Shirley Yeung needed help setting up classroom technology to support her goal of teaching dual-delivery classes. Tech2U provided Shirley with a video conferencing soundbar, allowing for more animated presentations.",
+        description: "Shirley Yeung needed help setting up classroom technology to support her goal of teaching dual delivery classes. Tech2U provided Shirley with a video conferencing soundbar, allowing for more animated presentations.",
         link: "/shirley",
         name: "Shirley"},
         {
@@ -40,12 +40,12 @@ export default function Stories() {
         name: "Barbara"}
     ]
     return <section>
-        <div class="nav-info-about">
+        <div class="nav-info">
             <div class="nav-text box-about3">
                 <h2>Tech2U Instructor Stories</h2>
                 <p>Tech2U is already supporting many instructors to reach their goals and maximize technology in their classroom. Read some of the stories of Instructors who have received technical support through Tech2U. </p>
             </div>
-            <img class="nav-p-tech" src={img1} alt=""/>
+            <img class="nav-p-abt" src={img1} alt=""/>
         </div>
         <div class="stories-body">
             {

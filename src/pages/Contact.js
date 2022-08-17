@@ -3,8 +3,19 @@ import im5 from "../assets/contact/Group493.svg";
 import im2 from "../assets/contact/Group486.svg";
 import im6 from "../assets/contact/Group487.svg";
 import im7 from "../assets/contact/Group363-3.svg";
+import { useRef } from 'react';
 
 export default function Contact() {
+    const book = useRef(null);
+    const form = useRef(null);
+
+    const scrollToSection = (elementRef) => {
+        window.scrollTo({
+            top: elementRef.current.offsetTop,
+            behavior: "smooth",
+        })
+    }
+
     return <section>
         <div class="contact-body">
             <div class="contact-text">
@@ -14,16 +25,16 @@ export default function Contact() {
 
     <section class="quest-sec">
         <div class="login-quest">
-            <a href="#book" class="quest-box">
+            <div onClick={() => scrollToSection(book)} class="quest-box">
                 <img class="quest-img" src={im1} alt=""/>
                 <h3>I am ready to book Tech Support</h3>
-            </a>
-            <a href="#tap" class="quest-box">
+            </div>
+            <div onClick={() => scrollToSection(form)} class="quest-box">
                 <img class="quest-img" src={im5} alt=""/>
                 <h3>I have more questions</h3>
-            </a>
+            </div>
         </div>
-        <h2>I am ready to book Tech Support</h2>
+        <h2 ref={book} id="book">I am ready to book Tech Support</h2>
         <div className="contact-part">
             <div className="part">
                 <img class="quest-img" src={im2} alt=""/>
@@ -38,11 +49,11 @@ export default function Contact() {
                 <p>3. Learn more about each classroom and request support</p>
             </div>
         </div>
-        <div id="book" class="centre-btn">
+        <div class="centre-btn">
             <button class="contact-btn">Login to the Instructor Portal</button>
         </div>
     </section>
-    <div id="tap form">
+    <div ref={form} id="form">
         <form class="contact-form" action="">
             <div class="contact-name">
                 <div class="field first-name">

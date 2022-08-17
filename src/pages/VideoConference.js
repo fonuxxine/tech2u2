@@ -9,7 +9,7 @@ import im6 from "../assets/tech/c5.svg";
 export default function VideoConference() {
     const techSupport1 = [
         {
-        title: "Dual-delivery forward design",
+        title: "Dual delivery forward design",
         image: im2},
         {
         title: "Capturing full group discussions",
@@ -38,7 +38,7 @@ export default function VideoConference() {
                         {
                             techSupport1.map(card => {
                                 return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    <SubTechBox title={card.title} image={card.image}/>
                                 )
                             })
                         }
@@ -47,7 +47,7 @@ export default function VideoConference() {
                         {
                             techSupport2.map(card => {
                                 return (
-                                    <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                    <SubTechBox title={card.title} image={card.image}/>
                                 )
                             })
                         }

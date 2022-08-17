@@ -38,7 +38,7 @@ export default function Mobile() {
                             {
                                 techSupport1.map(card => {
                                     return (
-                                        <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                        <SubTechBox title={card.title} image={card.image}/>
                                     )
                                 })
                             }
@@ -47,7 +47,7 @@ export default function Mobile() {
                             {
                                 techSupport2.map(card => {
                                     return (
-                                        <SubTechBox title={card.title} image={card.image} link={card.link}/>
+                                        <SubTechBox title={card.title} image={card.image}/>
                                     )
                                 })
                             }

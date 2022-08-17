@@ -64,7 +64,7 @@ export default function Camera() {
                         <li>Adjustable Arm</li>
                     </ul>
                 </div>
-                <img src={im7} alt=""/>
+                {/* <img src="" alt=""/> */}
             </div>
             </div>
     </section>

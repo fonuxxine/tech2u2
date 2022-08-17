@@ -28,7 +28,7 @@ export default function Footer() {
                 </CustomLink>
                 
             </div>
-            <Link href="/contact" target="_blank" rel="noreferrer">
+            <Link to="/contact">
                 <button class="footer-cta">Get Tech Support</button>
             </Link>
         </div>
