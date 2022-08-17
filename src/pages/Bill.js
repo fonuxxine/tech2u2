@@ -1,4 +1,5 @@
 import im4 from "../assets/stories/a2.svg";
+import { Link } from "react-router-dom";
 
 export default function Bill() {
     return <section>
@@ -6,7 +7,7 @@ export default function Bill() {
             <img src={im4} alt=""/>
             <div class="story-content-header">
                 <div class="box-help">
-                    <h2>Leveraging Technology for Innovative Student Engagement</h2>
+                    <h2>Innovation in the Classroom</h2>
                     <p>Bill Ju<br/>
                     Faculty of Arts and Science</p>
                 </div>
@@ -15,17 +16,19 @@ export default function Bill() {
         <div class="find-help-info">
             <div class="find-help">
                 <p class="help">
-                    <b>Bill</b> needed help finding technical solutions to allow him to provide online and dual delivery teaching. 
+                    <b>Bill Ju</b> needed help finding technical solutions that allow him to provide online and dual delivery teaching. 
                 </p>
                 <h3>
                     Tech2U worked with Bill to design a custom setup to enable Bill to record high-definition lectures for his dual delivery teaching.
                     <div class="find-help-btn">
-                <button class="help-btn">Have a similar problem? Get Tech2U Support</button>
+                <Link to="/contact">
+                    <button class="help-btn">Have a similar problem? Get Tech2U Support</button>
+                </Link>
             </div>
                 </h3>
             </div>
         </div>
-        <div class="help-info">
+        <div class="help-info add-space">
             <h2>“Being able to talk about what I want in the classroom, what my needs are and then taking that vision and making it happen, that part has been really invaluable”</h2>
             <p>
                 Dr. Bill Ju, an associate professor in the Human Biology department, had a vision for how he wanted to deliver his lecture materials. He wanted a high-quality camera that would follow and track his movements, but he failed to find one that produced satisfactory results. He contacted the Tech2U team for support on the matter, and the team troubleshot alongside him to make his vision a reality without having to compromise on quality. Along with this concern, Dr. Ju had anxieties surrounding starting class on time and being confident in the technology that was going to be used.

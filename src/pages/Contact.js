@@ -49,11 +49,14 @@ export default function Contact() {
                 <p>3. Learn more about each classroom and request support</p>
             </div>
         </div>
-        <div class="centre-btn">
-            <button class="contact-btn">Login to the Instructor Portal</button>
-        </div>
+        <a href="https://lsm.utoronto.ca/lsm_portal">
+            <div class="centre-btn">
+                <button class="contact-btn">Login to the Instructor Portal</button>
+            </div>
+        </a>
     </section>
-    <div ref={form} id="form">
+    <h2 ref={form} className="form-quest">I have more questions.</h2>
+    <div id="form">
         <form class="contact-form" action="">
             <div class="contact-name">
                 <div class="field first-name">

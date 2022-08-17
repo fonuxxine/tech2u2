@@ -23,7 +23,7 @@ export default function Stories() {
         {
         title: "Innovation in the Classroom",
         image: im2,
-        description: "Bill Ju needed help finding technical solutions to allow him to provide online and dual delivery teaching. Tech2U worked with Bill to design a custom setup that recorded high-definition lectures for his dual delivery teaching.",
+        description: "Bill Ju needed help finding technical solutions that allow him to provide online and dual delivery teaching. Tech2U worked with Bill to design a custom setup that recorded high-definition lectures.",
         link: "/bill",
         name: "Bill"},
         {
@@ -35,7 +35,7 @@ export default function Stories() {
         {
         title: "Adapting to Unique Situations",
         image: im3,
-        description: "Barbara Ballyk needed help switching to a hybrid teaching model and maintaining high engagement in both environments. Tech2U provide an HDMI splitter, allowing her to use several devices simultaneously to maximized student engagement.",
+        description: "Barbara Ballyk needed help switching to a hybrid teaching model while maintaining high engagement in both environments. Tech2U provide an HDMI splitter, allowing her to use several devices simultaneously to maximized student engagement.",
         link: "/barbara",
         name: "Barbara"}
     ]

@@ -7,8 +7,8 @@ export default function Steve() {
             <img src={im5} alt=""/>
             <div class="story-content-header">
                 <div class="box-help">
-                    <h2>Adapting to unique situations</h2>
-                    <p>Steven Triebber<br/>
+                    <h2>Connecting Students on a Global Scale</h2>
+                    <p>Steven Treiber<br/>
                     Faculty of Applied Science & Engineering</p>
                 </div>
             </div>
@@ -16,10 +16,10 @@ export default function Steve() {
         <div class="find-help-info">
             <div class="find-help">
                 <p class="help">
-                    <b>Steven Triebber</b> wanted to diversify lecture content by allowing guest lecturers and students to join from anywhere in the world.
+                    <b>Steven Treiber</b> wanted to diversify lecture content by allowing guest lecturers and students to join from anywhere in the world.
                 </p>
                 <h3>
-                    Steven Triebber wanted to diversify lecture content by allowing guest lecturers and students to join from anywhere in the world.
+                    Steven Treiber wanted to diversify lecture content by allowing guest lecturers and students to join from anywhere in the world.
                     <div class="find-help-btn">
                 <Link to="/contact">
                     <button class="help-btn">Have a similar problem? Get Tech2U Support</button>
@@ -31,7 +31,7 @@ export default function Steve() {
         <div class="help-info">
             <h2>"Our view of what we're supposed to be doing has changed, the view of education has changed, and what our job is has changed."</h2>
             <p>
-                Steven Triebber, sessional lecturer in the Department of Chemical Engineering and Applied Chemistry, needed technology that would support his flipped-format class which included using a combination of live and recorded sessions with students in Canada, China, and across Europe. Unique to Steven's teaching, he wanted to incorporate a guest lecturer in San Francisco. Additionally, he struggled to manage the sound quality of his lectures, which was a key aspect to providing an immersive classroom experience. 
+                Steven Treiber, sessional lecturer in the Department of Chemical Engineering and Applied Chemistry, needed technology that would support his flipped-format class which included using a combination of live and recorded sessions with students in Canada, China, and across Europe. Unique to Steven's teaching, he wanted to incorporate a guest lecturer in San Francisco. Additionally, he struggled to manage the sound quality of his lectures, which was a key aspect to providing an immersive classroom experience. 
                 <br/><br/>
                 Steven was able to enhance students' learning and innovate his teaching style with the help of Tech2U. Students and guest speakers were able to connect on a global scale with the newly installed Point, Tilt, Zoom (PTZ) camera, which allowed students in the classroom to interact with those outside. Tech2U installed the technology to improve audio by creating a stimulating and accessible learning environment. This was extremely important for students, as a few took the course because the timing would permit them to graduate early, and others told him the remote factor was important because they would be out of the country.  
                 <br/><br/>

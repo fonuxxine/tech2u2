@@ -18,7 +18,7 @@ export default function Navbar() {
           <CustomLink to="/stories">Stories</CustomLink>
           <CustomLink to="/contact">Contact Us</CustomLink>
         </ul>
-        <a class="cta" href="https://lsm.utoronto.ca/lsm_portal" target="_blank" rel="noreferrer"><button>Get Tech Support</button></a>
+        <Link to="/contact"><button>Get Tech Support</button></Link>
       </div>
     </nav>
   )

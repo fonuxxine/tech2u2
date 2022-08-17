@@ -1,4 +1,5 @@
 import im4 from "../assets/stories/a4.svg";
+import { Link } from "react-router-dom";
 
 export default function Shirley() {
     return <section>
@@ -15,26 +16,28 @@ export default function Shirley() {
         <div class="find-help-info">
             <div class="find-help">
                 <p class="help">
-                    <b>Shirley</b> needed help setting up classroom technology to support her goal of teaching dual-delivery classes.
+                    <b>Shirley Yeung</b> needed help setting up classroom technology to support her goal of teaching dual delivery classes.
                 </p>
                 <h3>
-                    Tech2U provided Shirley with a video conferencing soundbar that enabled dual-delivery to capture her entire teaching
+                    Tech2U provided Shirley with a video conferencing soundbar that enabled dual delivery to capture her entire teaching
                     area, allowing for more animated presentations.
                     <div class="find-help-btn">
-                <button class="help-btn">Have a similar problem? Get Tech2U Support</button>
+                <Link to="/contact">
+                    <button class="help-btn">Have a similar problem? Get Tech2U Support</button>
+                </Link>
             </div>
                 </h3>
             </div>
         </div>
-        <div class="help-info">
+        <div class="help-info add-space">
             <h2>“The Tech2U team was really, really crucial in helping me navigate the big unknowns”</h2>
             <p>
                 Shirley Yeung, a first-time instructor at the University of Toronto, found it overwhelming to navigate through the
                 classroom setting and had anxieties surrounding access to support. These anxieties began impacting her teaching, and
                 eventually raised concerns about the quality of her instruction as the University shifts back to primarily in-person
                 delivery. She wanted to learn about the teaching options available to her, and the options she could make available to
-                her students. This assistant professor wanted to offer her classes in a dual-delivery style but was unsure of how to go
-                about setting up a dual-environment and who to ask for help. Shirley notes that knowing what was possible was a struggle
+                her students. This assistant professor wanted to offer her classes in a dual delivery style but was unsure of how to go
+                about setting up a dual environment and who to ask for help. Shirley notes that knowing what was possible was a struggle
                 that Tech2U addressed.
                 <br/><br/>
                 The solution provided to her by the Tech2U team was a piece of technology, the Yamaha CS-700, that allowed her to
